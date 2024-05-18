@@ -55,16 +55,6 @@ app.post("/",function(req,res){
   })
 });
 
-
-
-
-
-
-
-
-
-
-
 app.listen(process.env.PORT || 3000,function(){
   console.log("Server is hosted at 3000");
 })
